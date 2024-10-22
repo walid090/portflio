@@ -1,0 +1,43 @@
+.b{
+    background-color: #131313;
+    padding: 20px;
+}
+.navbars{
+    list-style-type: none;
+    
+}
+.navbars li {
+    display: inline;
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    cursor: pointer;
+ 
+}
+.p1{
+    color: white;
+    padding-top: 150px;
+    font-size: 40px;
+}
+
+.p2{
+    padding-top: 20px;
+    font-size: 18px;
+    color:grey ;
+    margin-right: 150px;
+}
+ 
+.b1{
+    color: black;
+    margin-top: 30px;
+    font-weight: bold;
+    padding: 12px 24px;
+    background-color: #c9f31d;
+    border-radius: 13px;
+    border: none;
+} 
+li a {
+    text-decoration: none;
+    color: white;
+}
