@@ -1,0 +1,12 @@
+<div style="text-align: center; margin-top: 50px;">
+    <h1>QR Code Generator</h1>
+    <input
+      type="text"
+      placeholder="Enter text to encode"
+      [(ngModel)]="textToEncode"
+      style="padding: 10px; width: 300px;"
+    />
+    <div style="margin-top: 20px;">
+      <qrcode [qrdata]="textToEncode" [width]="256" [errorCorrectionLevel]="'M'"></qrcode>
+    </div>
+  </div>
